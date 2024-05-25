@@ -7,9 +7,9 @@
 a=int(input("Digite o primeiro número : "))
 b=int(input("Digite o segundo número : "))
 c=int(input("Digite o terceiro número : "))
-if ((a>b)&(a>c)):
+if ((a>b)and(a>c)):
     print(" O maior número digitado é :",a)
-elif ((b>a)&(b>c)):
+elif ((b>a)and(b>c)):
     print(" O maior número digitado é :",b)
 else:
     print(" O maior número digitado é :",c)
