@@ -8,12 +8,12 @@
 # esta condição. Apresentar junto das mensagens o valor da média do aluno para qualquer condição
 
 print ("Programa para cálculo de média de sua nota")
-nota1 =int (input("Digite a primeira nota : "))
-nota2 =int (input("Digite a segunda nota : "))
-nota3 =int (input("Digite a terceira nota : "))
-nota4 =int (input("Digite a quarta nota : "))
+nota1 =float (input("Digite a primeira nota : "))
+nota2 =float (input("Digite a segunda nota : "))
+nota3 =float (input("Digite a terceira nota : "))
+nota4 =float (input("Digite a quarta nota : "))
 media = (nota1+nota2+nota3+nota4)/4
 if media>=5:
- print ("Você foi APROVADO,sua nota média é : ",media)
+ print ("Você foi APROVADO,sua nota média é : ",(round)(media,2))
 elif media<5:
- print("Você foi REPROVADO,sua nota média é : ",media)
+ print("Você foi REPROVADO,sua nota média é : ",(round)(media,2))
